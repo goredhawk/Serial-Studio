@@ -52,8 +52,11 @@ env:
   INSTALL_QT_WINDOWS: true
   INSTALL_QT_LINUX_INTEL: false
   INSTALL_QT_LINUX_ARM64: false
+  QT_USERNAME:okfox1986@163.com
+  QT_PASSWORD:Hao123com
   QTFRAMEWORK_BYPASS_LICENSE_CHECK: "true"
   DESCRIPTION: "Multi-purpose serial data visualization & processing program"
+
 
 #-------------------------------------------------------------------------------
 # Begin workflow jobs definition
