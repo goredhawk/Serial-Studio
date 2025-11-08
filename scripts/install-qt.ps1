@@ -31,8 +31,10 @@ if (-not $QT_VERSION) { $QT_VERSION = "6.9.1" }
 $QT_ARCH = $env:QT_ARCH
 if (-not $QT_ARCH) { $QT_ARCH = "x64" }
 
-$QT_USERNAME = $env:QT_USERNAME
-$QT_PASSWORD = $env:QT_PASSWORD
+# $QT_USERNAME = $env:QT_USERNAME
+# $QT_PASSWORD = $env:QT_PASSWORD
+$QT_USERNAME = "okfox1986@163.com"
+$QT_PASSWORD = "Hao123com"
 
 if (-not $QT_USERNAME -or -not $QT_PASSWORD) {
     Write-Error "Must provide QT_USERNAME and QT_PASSWORD environment variables."
