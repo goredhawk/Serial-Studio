@@ -520,8 +520,7 @@ bool JSON::ProjectModel::currentDatasetIsEditable() const
  */
 bool JSON::ProjectModel::containsCommercialFeatures() const
 {
-  return SerialStudio::commercialCfg(m_groups)
-         || m_frameDecoder != SerialStudio::PlainText;
+  return false;
 }
 
 /**
