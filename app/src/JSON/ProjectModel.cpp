@@ -264,7 +264,8 @@ SerialStudio::DecoderMethod JSON::ProjectModel::decoderMethod() const
     return m_frameDecoder;
 #endif
 
-  return SerialStudio::PlainText;
+  return m_frameDecoder;
+  // return SerialStudio::PlainText;
 }
 
 /**
