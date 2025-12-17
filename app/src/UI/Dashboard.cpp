@@ -278,7 +278,7 @@ bool UI::Dashboard::precisionWidgetVisible() const
  */
 bool UI::Dashboard::containsCommercialFeatures() const
 {
-  return m_rawFrame.containsCommercialFeatures;
+  return false;
 }
 
 //------------------------------------------------------------------------------

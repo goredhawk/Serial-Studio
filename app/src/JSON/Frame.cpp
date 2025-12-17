@@ -24,7 +24,7 @@
 
 void JSON::finalize_frame(JSON::Frame &frame)
 {
-  frame.containsCommercialFeatures = SerialStudio::commercialCfg(frame.groups);
+  frame.containsCommercialFeatures = false;
 
   int id = 1;
   for (auto &group : frame.groups)
